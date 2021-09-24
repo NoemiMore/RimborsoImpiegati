@@ -1,0 +1,19 @@
+1) Descrivere le differenze tra Value e Reference Type
+I value Type si trovano nello stack, hanno sempre un valore definito e sono disposti in modo ordinato e seguenziale.
+Esempio di tipo valore è la struct a cui una chiave corrisponde un determinato valore.
+Possono essere nullabili
+
+I reference type si trovano nell'Heap quindi in un contesto meno ordinato dove non hanno un valore diretto ma puntano ad un oggetto. 
+I reference sono sotto il controllo del Garbage Collector
+Esempio di reference type è la classe
+
+2) Dare una panoramica degli elementi che mette a disposizione la piattaforma
+.Net.
+
+IDE con visual studio, accesso ai dat con EF Core e LINQ
+
+
+
+3) Spiegare le differenze tra .Net Framework, .Net Core.
+.Net Framework= funziona solo su dispositivi Windows--->sviluppo prodotti microsoft
+.Net Core= funziona su qualsiasi dispositivo Linux, Mac, Windows-->sviluppo in piu piattaforme
